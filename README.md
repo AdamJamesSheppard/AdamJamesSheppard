@@ -18,12 +18,17 @@ The operator-learning stage is in progress. An end-to-end neural pilot has demon
 
 [Programme and evidence](https://github.com/AdamJamesSheppard/lorenz-training-set/tree/main/docs/operator_learning) · [Research integrity](https://github.com/AdamJamesSheppard/lorenz-training-set/blob/main/SCIENTIFIC_INTEGRITY.md)
 
-### Selected work
+### Research portfolio
 
-- **[Learning chaotic dynamics](https://github.com/AdamJamesSheppard/Echo-State-Networks-Nonlinear-Vector-Autoregression-and-Data-Assimilation-for-Chaotic-Systems)** — earlier comparisons of reservoir computing, nonlinear vector autoregression and data-assimilation methods for chaotic systems.
-- **[Lorenz datasets in C++](https://github.com/AdamJamesSheppard/Lorenz-Atrractor-Revisited-C-)** — dataset generation for reservoir-computing and nonlinear autoregressive experiments.
-- **[Multivariate time-series analysis](https://github.com/AdamJamesSheppard/Multivariate-Time-Series-Analysis)** — modelling carbon-monoxide concentrations in Madrid using multivariate time-series methods.
-- **[Bayesian data-fusion notes](https://github.com/AdamJamesSheppard/Data-Fusion)** — earlier notebooks exploring multivariate-Gaussian statistics and data fusion. These are separate from the full-density formulation of the current research.
+These projects show the range of my work, with their evidence status made explicit.
+The older studies are exploratory; a [code and research-quality review](QUALITY_REVIEW.md)
+records limitations and proposed repairs. Listing a project here does not imply
+that its scientific conclusions have been independently validated.
+
+- **[Lorenz datasets in C++](https://github.com/AdamJamesSheppard/Lorenz-Atrractor-Revisited-C-)** — trajectory-generation work, with a [tested deterministic integrator proposed for review](https://github.com/AdamJamesSheppard/Lorenz-Atrractor-Revisited-C-/pull/1). The historical generator has correctness defects.
+- **[Multivariate time-series analysis](https://github.com/AdamJamesSheppard/Multivariate-Time-Series-Analysis)** — Madrid air-quality exploration, with a [train-only chronological baseline proposed for review](https://github.com/AdamJamesSheppard/Multivariate-Time-Series-Analysis/pull/1). Historical scores need re-evaluation.
+- **[Learning chaotic dynamics](https://github.com/AdamJamesSheppard/Echo-State-Networks-Nonlinear-Vector-Autoregression-and-Data-Assimilation-for-Chaotic-Systems)** — historical reservoir-computing and nonlinear autoregressive experiments. Forecast alignment and out-of-sample evaluation require repair before strong comparisons.
+- **[Bayesian data-fusion notes](https://github.com/AdamJamesSheppard/Data-Fusion)** — Gaussian teaching examples, with a [sensor-accounting correction proposed for review](https://github.com/AdamJamesSheppard/Data-Fusion/pull/1). Separate from the full-density formulation of the current research.
 
 ### How I approach the work
 
